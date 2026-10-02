@@ -64,10 +64,7 @@ OPEN_DELAY_S = 0.6  # petite pause entre deux ouvertures
 
 # --- voix -------------------------------------------------------------------
 JARVIS_WELCOME_ENABLED = True
-JARVIS_WELCOME_PHRASE = (
-    "Bonjour, bienvenue. Je lance ton bureau, et également les notifications "
-    "importantes, comme les mails non répondus ou les messages."
-)
+JARVIS_WELCOME_PHRASE = "Bonjour, bienvenue. Je lance ton bureau."
 JARVIS_WELCOME_CACHE_ENABLED = True
 
 load_dotenv(Path(__file__).resolve().parent / ".env")
